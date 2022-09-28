@@ -27,7 +27,7 @@ void draw()
   for(int j = 0; j < 8; j++) {
     for(int i = 0; i < 8; i++) {
       noStroke();
-      fill(255, (int)(Math.random()*50+150), (int)(Math.random()*13+240));
+      fill(255, (int)(Math.random()*50)+150, (int)(Math.random()*13)+240);
       Die z = new Die(15+i*60, 10+j*60);
       z.show();
       z.roll();
