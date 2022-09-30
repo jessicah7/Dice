@@ -32,7 +32,6 @@ void draw()
       z.show();
       z.roll();
     }
-    System.out.println();
   }
 }
 void mousePressed()
